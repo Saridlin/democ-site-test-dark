@@ -16,9 +16,13 @@ html, body {
   height: 100vh;
 }
 
+navbar-brand {
+  color: #fff;
+}
+
 footer {
-  background-color: #80afb1;
-  box-shadow: 0 50vh 0 50vh #80afb1;
+  background-color: #1e4486;
+  box-shadow: 0 50vh 0 50vh #1e4486;
 }
 
 @media (max-width: 575px) {
