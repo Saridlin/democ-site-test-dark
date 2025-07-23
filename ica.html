@@ -12,7 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <main>
+  <div class="content-container">
     <nav class="navbar navbar-expand-sm justify-content-between p-2 bg-body-tertiary">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.svg" width="50px"> The Future Democracies Laboratory</a>
@@ -69,23 +69,28 @@
               <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3"></button>
           </div>
 
+          <figure class="figure">
           <!-- The slideshow/carousel -->
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="images/ica1.jpeg" alt="ica"
-                      class="d-block img-fluid rounded" style="width:100%">
+                  <img src="images/ica1.jpeg" alt="ica" class="d-block img-fluid rounded" style="width:100%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>label ex 1</h5>
+                    <p>example of how a carousel label would look</p>
+                  </div>
               </div>
               <div class="carousel-item">
-                  <img src="images/ica2.jpeg" alt="demogames1" class="d-block img-fluid rounded"
-                      style="width:100%">
+                  <img src="images/ica2.jpeg" alt="demogames1" class="d-block img-fluid rounded" style="width:100%">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>label ex 2</h5>
+                    <p>example of how a carousel label would look</p>
+                  </div>
               </div>
               <div class="carousel-item">
-                  <img src="images/ica6.jpeg" alt="banahachi2" class="d-block img-fluid rounded"
-                      style="width:100%">
+                  <img src="images/ica6.jpeg" alt="banahachi2" class="d-block img-fluid rounded" style="width:100%">
               </div>
               <div class="carousel-item">
-                  <img src="images/ica7.jpeg" alt="banahachi2" class="d-block img-fluid rounded"
-                      style="width:100%">
+                  <img src="images/ica7.jpeg" alt="banahachi2" class="d-block img-fluid rounded" style="width:100%">
               </div>
           </div>
 
@@ -97,6 +102,11 @@
               <span class="carousel-control-next-icon"></span>
           </button>
         </div>
+
+            <figcaption class="figure-caption text-end">
+              Example of caption on outside of carousel
+            </figcaption>
+          </figure>
 
         </div>
 
@@ -171,7 +181,7 @@
     </footer>
 
 
-  </main>
+  </div>
   
 </body>
 </html>

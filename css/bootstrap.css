@@ -84,8 +84,8 @@
   --bs-body-bg-rgb: 1, 34, 68;
   --bs-emphasis-color: #FBFBFF;
   --bs-emphasis-color-rgb: 251, 251, 255;
-  --bs-secondary-color: rgba(33, 37, 41, 0.75);
-  --bs-secondary-color-rgb: 33, 37, 41;
+  --bs-secondary-color: #adadb8;
+  --bs-secondary-color-rgb: 173, 173, 184;
   --bs-secondary-bg: #1e4486;
   --bs-secondary-bg-rgb: 30, 68, 134;
   --bs-tertiary-color: #FBFBFF;
